@@ -1,0 +1,48 @@
+#main {
+	width: 70%;
+  max-width: 960px;
+  margin: 0 auto;
+	position: relative;
+}
+
+.post {
+	width: 22%;
+	margin: 30px 1%;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.post .entry-title {
+	text-align: center;
+}
+
+.post .entry-title a {
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: none;
+}
+.post .entry-title a:visited {
+	color: #ffffff;
+}
+.post .entry-title a:hover {
+	color: #e70065;
+}
+.post .entry-title a:focus {
+	color: #ffffff;
+}
+
+.pagination {
+	position: absolute;
+	right: 0;
+}
+.pagination h2,
+.pagination .page-numbers {
+	display: none;
+}
+.pagination .page-numbers.next,
+.pagination .page-numbers.prev {
+	display: block;
+}
+.pagination .page-numbers .icon {
+	max-width: 30px;
+}
